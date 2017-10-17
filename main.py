@@ -52,7 +52,7 @@ def signup():
 					count_at += 1
 				elif i == '.':
 					count_dot += 1
-				elif i != ' ':
+				elif i == ' ':
 					email_error = "That's not a valid email!"
 					break
 		
